@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Sectioned Essay Template
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing essay content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
+
+\usepackage{geometry} % Required to change the page size to A4
+\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
+
+\usepackage{graphicx} % Required for including pictures
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{makecell}
+
+\renewcommand\theadalign{cb}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+\linespread{1.2} % Line spacing
+
+%\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+\textsc{\LARGE Universidade Estadual de Campinas}\\[1.5cm] % Name of your university/college
+\textsc{\Large Faculdade de Engenharia Mecânica}\\[0.5cm] % Major heading such as course name
+
+\HRule \\[0.4cm]
+{ \huge \bfseries TG: Proposta e planejamento}\\[0.4cm] % Title of your document
+\HRule \\[1cm]
+
+\includegraphics[scale=0.3]{pictures/unicamp.png}\\
+\vspace{12mm}
+
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+Henrique de Abreu {Amitay} % Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Orientador:} \\
+André Ricardo Fioravanti % Supervisor's Name
+\end{flushleft}
+\end{minipage}\\[4cm]
+
+{4 de Julho, 2017}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section{Objetivo} % Major section
+
+O trabalho aqui descrito tem como objetivo propor uma reformulação do curso de Engenharia de Controle e Automação da Universidade Estadual de Campinas, de forma a se ter um curso mais alinhado com as competências esperadas de um engenheiro pleno. Este trabalho foi motivado pela observação do autor de que um número considerável de alunos, ao se aproximar do fim de seus cursos, não demonstravam conhecimento prático básico esperados de um engenheiro.
+	\paragraph{}Planeja-se que esta reformulação, inicialmente se dê pela criação de matérias de projeto, aonde os alunos deverão desenvolver projetos práticos a partir de conhecimento adquirido no curso, periodicamente.
+
+\section{Método}
+
+Inicialmente, antes de qualquer proposta, espera-se fazer estudos preliminares de forma a se definir exatamente o que será proposto, logo em um momento inicial planeja-se:
+
+\begin{itemize}
+\item Definir exatamente o escopo e as competências esperadas de um engenheiro recém formado.
+\item Analisar a grade do curso de Engenharia de Controle e Automação da Unicamp e apontar as competências desenvolvidas em cada uma das disciplinas.
+\item Estudar outras instituições de ensino, tanto no Brasil quanto no exterior, que desenvolveram projetos parecidos de ensino.
+\end{itemize}
+
+\paragraph{} Tendo definido estes pontos, a segunda etapa do trabalho consistirá em propor diferentes projetos, ou modelos de projetos que explorem todas as competências apontadas. Além disso será necessário analisar a viabilidade destes projetos, tendo como base a infraestrutura da universidade e o impacto que isto pode causar no currículo academico. Em suma, planeja-se:
+
+\begin{itemize}
+\item Agrupar as competências apontadas nos estudos preliminares em grupos, baseados em qual período o aluno estará.
+\item Propor projetos ou modelos de projetos que englobem estas competencias.
+\item Analisar a viabilidade destes projetos
+\item Caso não seja viável, propor alguma alternativa.
+\end{itemize}
+
+\section{Cronograma}
+
+Espera-se que este trabalho seja feito durante o peŕiodo de um ano, entre julho de 2017 até junho de 2018. A primeira etapa do trabalho será feita durante o segundo semestre de 2017 e a segunda etapa será feita no primeiro semestre de 2018. Estipulou-se o seguinte cronograma:
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|l|p{0.8\linewidth}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Período}} & \multicolumn{1}{c|}{\textbf{Etapa}}                                                   \tabularnewline \hline
+Julho/2017                                              & Finalização do planejamento do trabalho
+\tabularnewline \hline
+Agosto/2017                                             & Definição do escopo e competências de um engenheiro
+\tabularnewline \hline
+Setembro/2017                                           & Analisar a grade do curso de Engenharia de Controle e Automação e apontar competências
+\tabularnewline \hline
+Outubro/2017                      		      			  & Estudar outras instuições de ensino
+\tabularnewline \hline
+Novembro/2017                      		      	      & Compilação e escrita das informações apontadas nas etapas passadas e revisão bibliográfica                                                                                                     \tabularnewline \hline	
+Dezembro/2017                                           & Revisão do trabalho desenvolvido até então
+\tabularnewline \hline
+Janeiro/2018                                            & Agrupar as competências apontadas em grupos
+\tabularnewline \hline
+Fevereiro/2018                                          & Propor projetos ou modelos de projetos
+\tabularnewline \hline
+Março/2018                                          	  & Compilação e escrita dos projetos propostos
+\tabularnewline \hline
+Abril/2018                                            	  & Analisar a viabilidade destes projetos e caso não sejá viavel propor alguma alternativa.
+\tabularnewline \hline
+Maio/2018                                            	  & Revisão do trabalho desenvolvido até então
+\tabularnewline \hline
+Junho/2018                                            	  & Finalização da escrita do trabalho.
+
+\tabularnewline \hline
+\end{tabular}
+\end{table}
+
+\end{document}
