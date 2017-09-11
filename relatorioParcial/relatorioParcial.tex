@@ -29,7 +29,8 @@
 \usepackage[portuguese]{babel}
 \usepackage{natbib}
 \usepackage{multirow}
-\usepackage{longtable}
+\usepackage{changepage}
+
 
 
 
@@ -173,19 +174,33 @@ Junho/2018                                            	& Finalização da escrit
 %	DEFINIÇÃO DO ESCOPO
 %----------------------------------------------------------------------------------------
 \section{Escopo do Engenheiro de Controle e Automação}
+\subsection{Definição de Engenharia de Controle e Automação}
 
- Engenharia de Controle e Automação, ou Mecatrônica, é um campo relativamente jovem da engenharia. O avanço nas áreas de computação, sistemas embarcados e controle no último século criaram solo fértil para um campo novo e cheio de possibilidades. Porém, como é uma área nova ainda  não existe consenso no escopo esperado de um engenheiro de Controle e Automação.
+ \paragraph{}Engenharia de Controle e Automação, ou Mecatrônica, é um campo relativamente jovem da engenharia. O avanço nas áreas de computação, semicondutores, sistemas embarcados e controle no último século criaram solo fértil para um campo novo e cheio de possibilidades. Porém, como é uma área nova ainda  não existe consenso no escopo esperado de um engenheiro de Controle e Automação.
 
-\paragraph{}<DEFINIÇÃO DE MECATRONICA> 
+\paragraph{}A definição de Mecatrônica vem sendo alterada com os anos. Sua definição original foi feita pela \textit{Yasakawa Electric Company}, que a definiu como: 
 
-\paragraph{}Para este estudo, a Engenharia de Controle e Automação pode ser dividida nos seguintes itens [CITAÇÃO]:
+\paragraph{}\textit{"A palavra, mecatrônica, é composta de "meca" de mecanismo e "trônica" de eletrônica. Em outras palavras, tecnologias e produtos desenvolvidos irão incorporar sistemas eletrônicos em mecanismos cada vez mais, de maneira orgânica e intima, fazendo com que seja impossível dizer onde um começa e outro termina."}
+
+\paragraph{}Está definição vem evoluindo conforme mais estudos são desenvolvidos na área. Uma das definições mais atuais foi definida por W.Bolton: 
+
+\paragraph{}\textit{"Um sistema mecatrônico não é apenas o casamento de sistemas elétricos e mecânicos e é mais que apenas um sistema de controle; é a integração completa de todos eles."}
+
+\paragraph{}As muitas definições existentes mostram o quanto o campo de Controle e Automação é novo e o quanto ele tem evoluído com os avanços tecnológicos, porém o que fica mais evidenciado é que independente da definição o campo exige que o engenheiro tenha um rol vasto e variado de competências.
+
+\paragraph{}É necessário então que estas competências sejam levantadas e analisadas de forma a entender melhor como o curso oferecido pela UNICAMP desenvolve tais habilidades.
+
+
+\subsection{Levantamento das competências de um Engenheiro}
+\paragraph{}Para este estudo, a Engenharia de Controle e Automação pode ser dividida nos seguintes pontos chave": [CITAÇÃO]:
 
 \begin{itemize}
 \setlength\itemsep{0.01mm}
 \item Modelagem de sistemas físicos
+	\subitem Para este estudo, este item será dividido em Sistemas Mecânicos e Sistemas Elétricos.
 \item Sensores e Atuadores
 \item Sinais e Sistemas
-\item Computação e Sistemas Lógicos
+\item Computadores e Sistemas Lógicos
 \item Software e Aquisição de Dados
 \end{itemize}
 
@@ -208,8 +223,22 @@ Junho/2018                                            	& Finalização da escrit
 \item Aplicação de teoria técnica
 \end{itemize}
 
+\paragraph{}Por questões de simplicidade estas competências serão agrupadas e referidas como: \textit{Competências não técnicas}, já que se referem à competências voltadas mais à postura do que conhecimentos acadêmicos.
 
-\paragraph{}Alguns desses pontos podem parecer mais alinhados com o mercado e indústria e divergente da realidade acadêmica, porém este estudo busca um perfil de engenheiro pleno, que possa atuar tanto em ambientes acadêmicos quanto ambientes da indústria.
+\paragraph{}OBS: Alguns desses pontos podem parecer mais alinhados com o mercado e indústria e divergente da realidade acadêmica. É importante frisar que este estudo busca um perfil de engenheiro pleno, que possa atuar tanto em ambientes acadêmicos quanto ambientes da indústria.
+
+\paragraph{}Por fim, as competências que serão usadas como base neste estudo são:
+
+\begin{itemize}
+\setlength\itemsep{0.01mm}
+\item Modelagem de Sistemas Mecânicos
+\item Modelagem de Sistemas Elétricos
+\item Sensores e Atuadores
+\item Sinais e Sistemas
+\item Computação e Sistemas Lógicos
+\item Software e Aquisição de Dados
+\item Competências não técnicas
+\end{itemize}
 
 %----------------------------------------------------------------------------------------
 %	Anállise do curriculo
@@ -217,7 +246,7 @@ Junho/2018                                            	& Finalização da escrit
 
 \section{Análise do currículo atual}
 
-\paragraph{}O catálogo atual do curso de Engenharia de Controle e Automação apresenta, na sua versão mais recente, 246 hora-aula/semana (créditos), divididos em uma grade de 12 semestres.  As disciplinas oferecidas podem ser cursadas em qualquer ordem, dado que respeitem uma sequência de pré-requisitos estabelecidos, porém para está análise irá ser considerada a integralização sugerida pela faculdade. Dentro destes 246 créditos, 12 são de disciplinas eletivas.
+\paragraph{}O catálogo atual do curso de Engenharia de Controle e Automação apresenta, na sua versão mais recente, 246 hora-aula/semana (créditos), divididos em uma grade de 12 semestres.  As disciplinas oferecidas podem ser cursadas em qualquer ordem, dado que respeitem uma sequência de pré-requisitos estabelecidos, porém para esta% análise irá ser considerada a integralização sugerida pela faculdade. Dentro destes 246 créditos, 12 são de disciplinas eletivas.
 
 \paragraph{} O currículo pleno, com seus respectivos semestres indicados:
 
@@ -360,15 +389,16 @@ A tabela a seguir visa então:
 \begin{itemize}
 \setlength\itemsep{0.01mm}
 \item Relacionar disciplinas à grandes grupos.
-\item Relacionar o número de créditos investidos em cada àrea.
-\item Relacionar cada grupo à respectivas competências.
+\item Relacionar o número de créditos investidos em cada grupo.
+\item Relacionar o número de créditos práticos investidos em cada grupo.
+
 \end{itemize}
+
 
 \begin{table}[H]
 \centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{|l|p|c|c|c|c|}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{3cm}|p{7cm}|c|p{2cm}|p{2.5cm}|p{3cm}|}
 \hline
 Grupo                         & Disciplinas                                                                                                                                                                                                                                                                              & Créditos & Créditos Práticos & Porcentagem do Curso & Porcentagem dentro da parte prática \\ \hline
 Matemática e Ciências Básicas & {Física Geral I, Física Experimental I, Física Geral III, Química, Cálculo I, Geometria Analítica e Vetores, Cálculo II, Cálculo III, Álgebra Linear, Estatística para Experimentalistas, Cálculo Numérico}                                                                                & 52       & 0                 & 21.1\%               & 0\%                                 \\ \hline
@@ -376,6 +406,19 @@ Mecânica                      &{ Estática, Termodinâmica I, Dinâmica, Resist
 Elétrica                      & {Circuitos Elétricos, Circuitos II, Eletrônica Aplicada, Laboratório de Eletrônica Aplicada, Princípios de Conversão de Energia     }                                                                                                                                                      & 16       & 2                 & 6.5\%                & 3.4\%                               \\ \hline
 Fabricação                    & {Desenho Técnico Assistido por Computador, Engenharia de Fabricação, Fabricação Mecânica e Metalúrgica, Sistemas Mecânicos, Planejamento e Controle da Produção I   }                                                                                                                      & 15       & 0                 & 6.5\%                & 0\%                                 \\ \hline
 Automação                     & {Eletrônica para Automação Industrial, Laboratório de Eletrônica para Automação Industrial, Robótica Industrial, Instrumentação Básica, Laboratório de Automação Industrial, Automação Industrial, Modelagem de Dispositivos Eletromecânicos, Laboratório de Dispositivos Eletromecânicos} & 20       & 6                 & 8.13\%               & 10.3\%                              \\ \hline
+
+\end{tabular}
+}
+\caption{Divisão das disciplinas em grandes grupos - Parte 1}
+\label{div1}
+\end{table}
+
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{3cm}|p{7cm}|c|p{2cm}|p{2.5cm}|p{3cm}|}
+\hline
+Grupo                         & Disciplinas                                                                                                                                                                                                                                                                              & Créditos & Créditos Práticos & Porcentagem do Curso & Porcentagem dentro da parte prática \\ \hline
 Sinais e Sistemas             & {Análise Linear de Sistemas, Sistemas de Aquisição de Dados  }                                                                                                                                                                                                                             & 8        & 4                 & 3.25\%               & 6.9\%                               \\ \hline
 Controle                      & {Controle de Sistemas Mecânicos, Controle Avançado de Sistemas, Laboratório de Controle de Sistemas                }                                                                                                                                                                       & 10       & 2                 & 4.1\%                & 3.4\%                               \\ \hline
 Sistemas Embarcados           & {Circuitos Lógicos, Laboratório de Circuitos Lógicos, Projeto de Sistemas Embarcados, Laboratório de Sistemas Embarcados     }                                                                                                                                                             & 12       & 8                 & 4.9\%                & 13.8\%                              \\ \hline
@@ -383,7 +426,12 @@ Computação                    & {Algoritmos e Programação de Computadores, E
 Projetos de Engenharia        & {Introdução à Engenharia de Controle e Automação, Projeto de Sistemas Mecatrônicos, Trabalho de Graduação I, Trabalho de Graduação II, Oficinas - Mecatrônica }                                                                                                                            & 16       & 14                & 6.5\%                & 24.1\%                              \\ \hline
 Estudos Complementares        & {Ciências do Ambiente, Direito, Economia para Engenharia, Estágio Supervisionado}                                                                                                                                                                                                          & 20       & 0                 & 8.13\%               & 0\%                                 \\ \hline
 \end{tabular}
+}
+\caption{Divisão das disciplinas em grandes grupos - Parte 2}
+\label{div2}
 \end{table}
+
+
 
 
 \bibliographystyle{apa}

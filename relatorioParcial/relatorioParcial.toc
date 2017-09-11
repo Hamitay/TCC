@@ -6,14 +6,24 @@
 \contentsline {paragraph}{}{2}
 \contentsline {section}{\numberline {3}Cronograma}{3}
 \contentsline {section}{\numberline {4}Escopo do Engenheiro de Controle e Automa\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o de Engenharia de Controle e Automa\IeC {\c c}\IeC {\~a}o}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {4.2}Levantamento das compet\IeC {\^e}ncias de um Engenheiro}{5}
 \contentsline {paragraph}{}{5}
-\contentsline {section}{\numberline {5}An\IeC {\'a}lise do curr\IeC {\'\i }culo atual}{5}
 \contentsline {paragraph}{}{5}
 \contentsline {paragraph}{}{5}
-\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {section}{\numberline {5}An\IeC {\'a}lise do curr\IeC {\'\i }culo atual}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
 \contentsline {paragraph}{}{9}
-\contentsline {paragraph}{}{9}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{10}
