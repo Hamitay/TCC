@@ -1,0 +1,15 @@
+@book{THE
+MECHATRONICS
+HANDBOOK,
+  author    = {autor}, 
+  title     = {THE MECHATRONICS HANDBOOK},
+  publisher = {Editora},
+  year      = {ano},
+  volume    = {volume},
+  series    = {serie},
+  address   = {Endereço},
+  edition   = {edição},
+  month     = {mês},
+  note      = {Anotação},
+  isbn      = {ISBN}
+}

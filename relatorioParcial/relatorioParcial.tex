@@ -1,0 +1,392 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Sectioned Essay Template
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing essay content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
+
+\usepackage{geometry} % Required to change the page size to A4
+\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
+
+\usepackage{graphicx} % Required for including pictures
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+\usepackage[portuguese]{babel}
+\usepackage{natbib}
+\usepackage{multirow}
+\usepackage{longtable}
+
+
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{makecell}
+
+\renewcommand\theadalign{cb}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+\linespread{1.2} % Line spacing
+
+%\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+\addto\captionsportuguese{\renewcommand*\contentsname{Indíce} }
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+\textsc{\LARGE Universidade Estadual de Campinas}\\[1.5cm] % Name of your university/college
+\textsc{\Large Faculdade de Engenharia Mecânica}\\[0.5cm] % Major heading such as course name
+
+\HRule \\[0.4cm]
+{ \huge \bfseries TG: Proposta e planejamento}\\[0.4cm] % Title of your document
+\HRule \\[1cm]
+
+\includegraphics[scale=0.3]{pictures/unicamp.png}\\
+\vspace{12mm}
+
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+Henrique de Abreu {Amitay} % Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Orientador:} \\
+André Ricardo Fioravanti % Supervisor's Name
+\end{flushleft}
+\end{minipage}\\[4cm]
+
+{\today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	OBJETIVO
+%----------------------------------------------------------------------------------------
+
+\section{Objetivo}
+
+\paragraph{}O trabalho aqui descrito tem como objetivo propor uma reformulação do curso de Engenharia de Controle e Automação da Universidade Estadual de Campinas, de forma a se ter um curso mais alinhado com as competências esperadas de um engenheiro pleno. Este trabalho foi motivado pela observação do autor de que um número considerável de alunos, ao se aproximar do fim de seus cursos, não demonstravam conhecimento prático básico esperados de um engenheiro, além de terem tido pouquíssimas experiências com desenvolvimento e gerenciamento de projetos.
+
+\paragraph{}Planeja-se que esta reformulação, inicialmente se dê pela criação de disciplinas de projeto, onde os alunos deverão desenvolver projetos práticos a partir de conhecimento adquirido no curso, periodicamente.
+
+%----------------------------------------------------------------------------------------
+%	MÉTODO E CRONOGRAMA
+%----------------------------------------------------------------------------------------
+
+\section{Método}
+
+Inicialmente, antes de qualquer proposta, espera-se fazer estudos preliminares de forma a se definir exatamente o que será proposto, logo em um momento inicial planeja-se:
+
+\begin{itemize}
+\setlength\itemsep{0.01mm}
+\item Definir exatamente o escopo e as competências esperadas de um engenheiro recém formado.
+\item Analisar a grade do curso de Engenharia de Controle e Automação da Unicamp e apontar as competências desenvolvidas em cada uma das disciplinas.
+\item Estudar outras instituições de ensino, tanto no Brasil quanto no exterior, que desenvolveram projetos parecidos de ensino.
+\end{itemize}
+
+\paragraph{} Tendo definido estes pontos, a segunda etapa do trabalho consistirá em propor diferentes projetos, ou modelos de projetos que explorem todas as competências apontadas. Além disso será necessário analisar a viabilidade destes projetos, tendo como base a infraestrutura da universidade e o impacto que isto pode causar no currículo academico. Em suma, planeja-se:
+
+\begin{itemize}
+\setlength\itemsep{0.01mm}
+\item Agrupar as competências apontadas nos estudos preliminares em grupos, baseados em qual período o aluno estará.
+\item Propor projetos ou modelos de projetos que englobem estas competencias.
+\item Analisar a viabilidade destes projetos
+\item Caso não seja viável, propor alguma alternativa.
+\end{itemize}
+
+\section{Cronograma}
+
+Espera-se que este trabalho seja feito durante o peŕiodo de um ano, entre julho de 2017 até junho de 2018. A primeira etapa do trabalho será feita durante o segundo semestre de 2017 e a segunda etapa será feita no primeiro semestre de 2018. Estipulou-se o seguinte cronograma:
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|l|p{0.8\linewidth}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Período}} & \multicolumn{1}{c|}{\textbf{Etapa}}                                                   \tabularnewline \hline
+Julho/2017                                              & Finalização do planejamento do trabalho
+\tabularnewline \hline
+Agosto/2017                                           & Definição do escopo e competências de um engenheiro
+\tabularnewline \hline
+Setembro/2017                                       & Analisar a grade do curso de Engenharia de Controle e Automação e apontar competências
+\tabularnewline \hline
+Outubro/2017                      		& Estudar outras instuições de ensino
+\tabularnewline \hline
+Novembro/2017                      		& Compilação e escrita das informações apontadas nas etapas passadas e revisão bibliográfica                                                                                                     \tabularnewline \hline	
+Dezembro/2017                                       & Revisão do trabalho desenvolvido até então
+\tabularnewline \hline
+Janeiro/2018                                           & Agrupar as competências apontadas em grupos
+\tabularnewline \hline
+Fevereiro/2018                                       & Propor projetos ou modelos de projetos
+\tabularnewline \hline
+Março/2018                                             & Compilação e escrita dos projetos propostos
+\tabularnewline \hline
+Abril/2018                                            	& Analisar a viabilidade destes projetos e caso não sejá viavel propor alguma alternativa.
+\tabularnewline \hline
+Maio/2018                                            	& Revisão do trabalho desenvolvido até então
+\tabularnewline \hline
+Junho/2018                                            	& Finalização da escrita do trabalho.
+
+\tabularnewline \hline
+\end{tabular}
+\end{table}
+
+%----------------------------------------------------------------------------------------
+%	DEFINIÇÃO DO ESCOPO
+%----------------------------------------------------------------------------------------
+\section{Escopo do Engenheiro de Controle e Automação}
+
+ Engenharia de Controle e Automação, ou Mecatrônica, é um campo relativamente jovem da engenharia. O avanço nas áreas de computação, sistemas embarcados e controle no último século criaram solo fértil para um campo novo e cheio de possibilidades. Porém, como é uma área nova ainda  não existe consenso no escopo esperado de um engenheiro de Controle e Automação.
+
+\paragraph{}<DEFINIÇÃO DE MECATRONICA> 
+
+\paragraph{}Para este estudo, a Engenharia de Controle e Automação pode ser dividida nos seguintes itens [CITAÇÃO]:
+
+\begin{itemize}
+\setlength\itemsep{0.01mm}
+\item Modelagem de sistemas físicos
+\item Sensores e Atuadores
+\item Sinais e Sistemas
+\item Computação e Sistemas Lógicos
+\item Software e Aquisição de Dados
+\end{itemize}
+
+\paragraph{}Os itens acima descrevem os campos que, teoricamente, definem o campo de Engenharia de Controle e Automação, porém, é preciso também apontar as competências esperadas de um engenheiro, seja ele de Controle e Automação ou não.
+
+\paragraph{}O estudo feito por [CITAÇÃO, MALE, 2012] aponta as seguintes competências esperadas de um engenheiro:
+
+\begin{itemize}
+\setlength\itemsep{0.01mm}
+\item Comunicação
+\item Trabalho em Equipe
+\item  Profissionalismo
+\item Autonomia
+\item Ingenuidade
+\item Liderança e Gestão
+\item Engenharia voltada à negócios
+\item Empreendedorismo
+\item Engenharia prática
+\item Responsabilidades profissionais
+\item Aplicação de teoria técnica
+\end{itemize}
+
+
+\paragraph{}Alguns desses pontos podem parecer mais alinhados com o mercado e indústria e divergente da realidade acadêmica, porém este estudo busca um perfil de engenheiro pleno, que possa atuar tanto em ambientes acadêmicos quanto ambientes da indústria.
+
+%----------------------------------------------------------------------------------------
+%	Anállise do curriculo
+%----------------------------------------------------------------------------------------
+
+\section{Análise do currículo atual}
+
+\paragraph{}O catálogo atual do curso de Engenharia de Controle e Automação apresenta, na sua versão mais recente, 246 hora-aula/semana (créditos), divididos em uma grade de 12 semestres.  As disciplinas oferecidas podem ser cursadas em qualquer ordem, dado que respeitem uma sequência de pré-requisitos estabelecidos, porém para está análise irá ser considerada a integralização sugerida pela faculdade. Dentro destes 246 créditos, 12 são de disciplinas eletivas.
+
+\paragraph{} O currículo pleno, com seus respectivos semestres indicados:
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|l|c|}
+\hline
+Semestre             & Disciplina                                                 & Créditos \\ \hline
+\multirow{5}{*}{1o}  & Cálculo I                                                  & 6        \\ \cline{2-3} 
+                     & Química                                                    & 4        \\ \cline{2-3} 
+                     & Introdução à Engenharia de Controle e Automação            & 2        \\ \cline{2-3} 
+                     & Geometria Analítica e Vetores                              & 4        \\ \cline{2-3} 
+                     & Física Geral I                                             & 4        \\ \hline
+\multirow{5}{*}{2o}  & Cálculo II                                                 & 6        \\ \cline{2-3} 
+                     & Física Geral III                                           & 4        \\ \cline{2-3} 
+                     & Desenho Técnico Assistido por Computador                   & 4        \\ \cline{2-3} 
+                     & Oficinas - Mecatrônica                                     & 4        \\ \cline{2-3} 
+                     & Algoritmos e Programação de Computadores                   & 6        \\ \hline
+\multirow{5}{*}{3o}  & Cálculo III                                                & 6        \\ \cline{2-3} 
+                     & Estruturas de Dados                                        & 6        \\ \cline{2-3} 
+                     & Física Experimental I                                      & 2        \\ \cline{2-3} 
+                     & Circuitos Elétricos                                        & 4        \\ \cline{2-3} 
+                     & Materiais de Engenharia                                    & 2        \\ \hline
+\multirow{5}{*}{4o}  & Cálculo Numérico                                           & 4        \\ \cline{2-3} 
+                     & Álgebra Linear                                             & 4        \\ \cline{2-3} 
+                     & Programação Orientada a Objetos                            & 4        \\ \cline{2-3} 
+                     & Termodinâmica I                                            & 4        \\ \cline{2-3} 
+                     & Estática                                                   & 4        \\ \hline
+\multirow{5}{*}{5o}  & Mecânica dos Fluidos I                                     & 4        \\ \cline{2-3} 
+                     & Organização Básica de Computadores e Linguagem de Montagem & 4        \\ \cline{2-3} 
+                     & Dinâmica                                                   & 4        \\ \cline{2-3} 
+                     & Eletrônica Aplicada                                        & 4        \\ \cline{2-3} 
+                     & Estatística para Experimentalistas                         & 4        \\ \hline
+\multirow{6}{*}{6o}  & Laboratório de Eletrônica Aplicada                         & 2        \\ \cline{2-3} 
+                     & Circuitos II                                               & 4        \\ \cline{2-3} 
+                     & Análise Linear de Sistemas                                 & 4        \\ \cline{2-3} 
+                     & Engenharia de Fabricação                                   & 2        \\ \cline{2-3} 
+                     & Transferência de Calor I                                   & 4        \\ \cline{2-3} 
+                     & Circuitos Lógicos                                          & 4        \\ \hline
+\multirow{6}{*}{7o}  & Fabricação Mecânica e Metalúrgica                          & 2        \\ \cline{2-3} 
+                     & Laboratório de Circuitos Lógicos                           & 2        \\ \cline{2-3} 
+                     & Sistemas Fluidotérmicos I                                  & 4        \\ \cline{2-3} 
+                     & Resistência dos Materiais I                                & 4        \\ \cline{2-3} 
+                     & Projeto de Sistemas Computacionais                         & 4        \\ \cline{2-3} 
+                     & Vibrações de Sistemas Mecânicos                            & 4        \\ \hline
+\end{tabular}
+\caption{Catálogo atual do curso -  Parte 1}
+\label{catalago1}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|l|c|}
+\hline
+Semestre             & Disciplina                                                 & Créditos \\ \hline
+\multirow{6}{*}{8o}  & Controle de Sistemas Mecânicos                             & 4        \\ \cline{2-3} 
+                     & Resistência dos Materiais II                               & 4        \\ \cline{2-3} 
+                     & Princípios de Conversão de Energia                         & 4        \\ \cline{2-3} 
+                     & Instrumentação Básica                                      & 2        \\ \cline{2-3} 
+                     & Laboratório de Ensaio dos Materiais                        & 2        \\ \cline{2-3} 
+                     & Sistemas de Aquisição de Dados                             & 4        \\ \hline
+\multirow{6}{*}{9o}  & Projeto de Sistemas Embarcados                             & 4        \\ \cline{2-3} 
+                     & Eletrônica para Automação Industrial                       & 4        \\ \cline{2-3} 
+                     & Laboratório de Dispositivos Eletromecânicos                & 2        \\ \cline{2-3} 
+                     & Planejamento e Controle da Produção I                      & 4        \\ \cline{2-3} 
+                     & Modelagem de Dispositivos Eletromecânicos                  & 2        \\ \cline{2-3} 
+                     & Robótica Industrial                                        & 4        \\ \hline
+\multirow{5}{*}{10o} & Sistemas Mecânicos                                         & 4        \\ \cline{2-3} 
+                     & Laboratório de Eletrônica para Automação Industrial        & 2        \\ \cline{2-3} 
+                     & Automação Industrial                                       & 4        \\ \cline{2-3} 
+                     & Controle Avançado de Sistemas                              & 4        \\ \cline{2-3} 
+                     & Laboratório de Sistemas Embarcados                         & 2        \\ \hline
+\multirow{4}{*}{11o} & Ciências do Ambiente                                       & 2        \\ \cline{2-3} 
+                     & Laboratório de Controle de Sistemas                        & 2        \\ \cline{2-3} 
+                     & Laboratório de Automação Industrial                        & 2        \\ \cline{2-3} 
+                     & Trabalho de Graduação I                                    & 2        \\ \hline
+\multirow{5}{*}{12o} & Direito                                                    & 2        \\ \cline{2-3} 
+                     & Economia para Engenharia                                   & 4        \\ \cline{2-3} 
+                     & Estágio Supervisionado                                     & 12       \\ \cline{2-3} 
+                     & Trabalho de Graduação II                                   & 4        \\ \cline{2-3} 
+                     & Projeto de Sistemas Mecatrônicos                           & 4        \\ \hline
+\end{tabular}
+\caption{Catálogo atual do curso -  Parte 2}
+\label{catalago2}
+\end{table}
+
+\pagebreak
+
+\paragraph{} Para este estudo é necessário destacar as disciplinas que tem como ementa o desenvolvimento de conhecimentos práticos e de projeto. As experiências do autor com o curso puderam mostrar que muitas disciplinas que não possuem este escopo na ementa também trouxeram experiências práticas pela iniciativa do próprio docente, porém estes casos não serão analisados pois não há maneira de quantifica-los dado que dependem de um fator subjetivo. São elas:
+
+\begin{itemize}
+\setlength\itemsep{0.01mm}
+\item\textbf{Laboratórios e Oficinas}: 
+	\subitem Laboratório de Eletrônica Aplicada 
+	\subitem Laboratório de Circuitos Lógicos 
+	\subitem Laboratório de Dispositivos Eletromecânicos 
+	\subitem Laboratório de Eletrônica para Automação Industrial 
+	\subitem Laboratório de Sistemas Embarcados
+	\subitem Laboratório de Controle de Sistemas
+	\subitem Laboratório de Automação Industrial
+	\subitem Laboratório de Ensaio dos Materiais
+	\subitem Oficinas - Mecatrônica
+\item\textbf{Computação}:
+	\subitem Algoritmos e Programação de Computadores
+	\subitem Estruturas de Dados
+	\subitem Programação Orientada a Objetos
+	\subitem Organização Básica de Computadores e Linguagem de Montagem
+\item\textbf{Projetos e Sistemas}:
+	\subitem Projeto de Sistemas Embarcados
+	\subitem Projeto de Sistemas Mecatrônicos
+	\subitem Sistemas de Aquisição de Dados
+\item \textbf{Trabalhos de Graduação}:
+	\subitem Trabalho de Graduação I 
+	\subitem Trabalho de Graduação II
+\end{itemize}
+
+\paragraph{} As disciplinas desta lista correspondem à 58 créditos, ou seja, uma parcela de $23,6\%$ da totalidade do curso. Porém, é necessário avaliar com quais competências estes 58 créditos se relacionam e em qual momento do curso serão cursados pelos alunos.
+
+\paragraph{} Para esta análise, todas as disciplinas foram mapeadas em grupos. Estes grupos visam condensar as disciplinas em competências desenvolvidas e serão a base das análises subsequentes. São eles:
+
+\begin{itemize}
+\setlength\itemsep{0.01mm}
+\item\textbf{Matemática e Ciências Básicas}: noções básicas de matemática, física e química que servirão como base de outras disciplinas.
+\item \textbf{Mecânica}: consiste no estudo de mecânica dos sólidos e fluidos, estudo de calor e energia e materiais.
+\item \textbf{Elétrica}: consiste no estudo de circuitos elétricos e magnéticos e sistemas de conversão de energia.
+\item \textbf{Fabricação}: consiste no projeto de sistemas mecânicos e sua produção.
+\item\textbf{Automação}: consiste no estudo de sensores e atuadores usados na automação de processos, assim como o projeto de sistemas automatizados e modelagem de dispositivos.
+\item \textbf{Sinais e Sistemas}: consiste no estudo de sinais de tempo contínuo e discreto e em aquisição de dados.
+\item\textbf{Controle}: estudo de técnicas de controle de sistemas dinâmicos.
+\item \textbf{Sistemas Embarcados}: estudo de arquitetura e projetos de sistemas embarcados bem como suas aplicações.
+\item\textbf{Computação}: noções básicas de algoritmos, estrutura de dados, paradigmas de programação, linguagem de montagem e arquitetura de computadores.
+\item \textbf{Projetos de Engenharia}: desenvolvimento de projetos que consistem na integração de uma ou mais áreas estudadas em engenharia.
+\item \textbf{Estudos complementares}: se refere a campos que não competem necessariamente ao escopo de um Engenheiro de Controle e Automação porém se adequam à realidade de um profissional no ambiente brasileiro.
+\end{itemize}
+
+O mapeamento das disciplinas, além de facilitar as análises subsequentes também servirão para relacionar os grupos às competências levantadas na sessão anterior.
+A tabela a seguir visa então:
+\begin{itemize}
+\setlength\itemsep{0.01mm}
+\item Relacionar disciplinas à grandes grupos.
+\item Relacionar o número de créditos investidos em cada àrea.
+\item Relacionar cada grupo à respectivas competências.
+\end{itemize}
+
+\begin{table}[H]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|l|p|c|c|c|c|}
+\hline
+Grupo                         & Disciplinas                                                                                                                                                                                                                                                                              & Créditos & Créditos Práticos & Porcentagem do Curso & Porcentagem dentro da parte prática \\ \hline
+Matemática e Ciências Básicas & {Física Geral I, Física Experimental I, Física Geral III, Química, Cálculo I, Geometria Analítica e Vetores, Cálculo II, Cálculo III, Álgebra Linear, Estatística para Experimentalistas, Cálculo Numérico}                                                                                & 52       & 0                 & 21.1\%               & 0\%                                 \\ \hline
+Mecânica                      &{ Estática, Termodinâmica I, Dinâmica, Resistência dos Materiais I, Mecânica dos Fluidos I, Resistência dos Materiais II, Transferência de Calor I,Vibrações de Sistemas Mecânicos, Materiais de Engenharia, Laboratório de Ensaio dos Materiais, Sistemas Fluidotérmicos I     }           & 40       & 2                 & 16.3\%               & 3.4\%                               \\ \hline
+Elétrica                      & {Circuitos Elétricos, Circuitos II, Eletrônica Aplicada, Laboratório de Eletrônica Aplicada, Princípios de Conversão de Energia     }                                                                                                                                                      & 16       & 2                 & 6.5\%                & 3.4\%                               \\ \hline
+Fabricação                    & {Desenho Técnico Assistido por Computador, Engenharia de Fabricação, Fabricação Mecânica e Metalúrgica, Sistemas Mecânicos, Planejamento e Controle da Produção I   }                                                                                                                      & 15       & 0                 & 6.5\%                & 0\%                                 \\ \hline
+Automação                     & {Eletrônica para Automação Industrial, Laboratório de Eletrônica para Automação Industrial, Robótica Industrial, Instrumentação Básica, Laboratório de Automação Industrial, Automação Industrial, Modelagem de Dispositivos Eletromecânicos, Laboratório de Dispositivos Eletromecânicos} & 20       & 6                 & 8.13\%               & 10.3\%                              \\ \hline
+Sinais e Sistemas             & {Análise Linear de Sistemas, Sistemas de Aquisição de Dados  }                                                                                                                                                                                                                             & 8        & 4                 & 3.25\%               & 6.9\%                               \\ \hline
+Controle                      & {Controle de Sistemas Mecânicos, Controle Avançado de Sistemas, Laboratório de Controle de Sistemas                }                                                                                                                                                                       & 10       & 2                 & 4.1\%                & 3.4\%                               \\ \hline
+Sistemas Embarcados           & {Circuitos Lógicos, Laboratório de Circuitos Lógicos, Projeto de Sistemas Embarcados, Laboratório de Sistemas Embarcados     }                                                                                                                                                             & 12       & 8                 & 4.9\%                & 13.8\%                              \\ \hline
+Computação                    & {Algoritmos e Programação de Computadores, Estruturas de Dados, Programação Orientada a Objetos, Organização Básica de Computadores e Linguagem de Montagem, Projeto de Sistemas Computacionais  }                                                                                         & 24       & 20                & 9.76\%               & 34.4\%                              \\ \hline
+Projetos de Engenharia        & {Introdução à Engenharia de Controle e Automação, Projeto de Sistemas Mecatrônicos, Trabalho de Graduação I, Trabalho de Graduação II, Oficinas - Mecatrônica }                                                                                                                            & 16       & 14                & 6.5\%                & 24.1\%                              \\ \hline
+Estudos Complementares        & {Ciências do Ambiente, Direito, Economia para Engenharia, Estágio Supervisionado}                                                                                                                                                                                                          & 20       & 0                 & 8.13\%               & 0\%                                 \\ \hline
+\end{tabular}
+\end{table}
+
+
+\bibliographystyle{apa}
+ \bibliography{../bibliografia/bibliografia}
+
+\end{document}
