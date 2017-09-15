@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.6)  11 SEP 2017 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.6)  14 SEP 2017 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,12 +611,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
  [2]
-Overfull \hbox (22.79736pt too wide) in paragraph at lines 143--171
+Overfull \hbox (22.79736pt too wide) in paragraph at lines 142--170
  [][] 
  []
 
 [3] [4] [5]
-Overfull \hbox (45.75882pt too wide) in paragraph at lines 257--298
+Overfull \hbox (45.75882pt too wide) in paragraph at lines 256--297
  [][] 
  []
 
@@ -625,80 +625,96 @@ Overfull \vbox (94.86461pt too high) has occurred while \output is active []
 
 
 [7] [8] [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\T1/cmr/m/n/12 Créditos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\T1/cmr/m/n/12 Porcentagem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\T1/cmr/m/n/12 Porcentagem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\T1/cmr/m/n/12 Matemática e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\T1/cmr/m/n/12 Créditos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\T1/cmr/m/n/12 Porcentagem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\T1/cmr/m/n/12 Porcentagem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
+Underfull \hbox (badness 2142) in paragraph at lines 428--428
+\T1/cmr/m/n/12 Ro-bó-tica In-dus-trial, Ins-tru-men-ta-ção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\T1/cmr/m/n/12 Sistemas Em-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\T1/cmr/m/n/12 Estudos Com-
  []
 
-[11]
+[11] <pictures/graficoMaterias.png, id=56, 1124.2pt x 843.15pt>
+File: pictures/graficoMaterias.png Graphic file (type png)
+
+<use pictures/graficoMaterias.png>
+Package pdftex.def Info: pictures/graficoMaterias.png used on input line 433.
+(pdftex.def)             Requested size: 393.47589pt x 295.10692pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
+
+ []
+
+[12]
 No file relatorioParcial.bbl.
-[12] (./relatorioParcial.aux) ) 
+[13 <./pictures/graficoMaterias.png (PNG copy)>] (./relatorioParcial.aux) ) 
 Here is how much of TeX's memory you used:
- 3936 strings out of 492995
- 51032 string characters out of 6132705
+ 3941 strings out of 492995
+ 51182 string characters out of 6132705
  239644 words of memory out of 5000000
- 7405 multiletter control sequences out of 15000+600000
+ 7409 multiletter control sequences out of 15000+600000
  15947 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,25p,610b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dv
-ips/cm-super/cm-super-t1.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/cm-super/sfbx1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/c
-m-super/sfbx1440.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-
-super/sfbx1728.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-su
-per/sfbx2488.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
-r/sfcc1728.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
-sfcc2074.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
-rm1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm
-1440.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti12
-00.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1440
-.pfb>
-Output written on relatorioParcial.pdf (13 pages, 229926 bytes).
+ 39i,10n,25p,868b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/us
+r/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on relatorioParcial.pdf (14 pages, 273088 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
