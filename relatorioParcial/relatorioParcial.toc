@@ -27,6 +27,7 @@
 \contentsline {paragraph}{}{9}
 \contentsline {paragraph}{}{10}
 \contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{13}
 \contentsline {section}{\numberline {6}Pr\IeC {\'o}ximos passos}{13}
 \contentsline {paragraph}{}{13}
 \contentsline {paragraph}{}{13}
