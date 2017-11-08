@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.6)  7 NOV 2017 08:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.6)  7 NOV 2017 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,18 +788,31 @@ Overfull \hbox (12.3584pt too wide) in paragraph at lines 653--653
  [][] 
  []
 
-[19] [20 <./pictures/graficoFei.png (PNG copy)>]
-No file relatorioParcial.bbl.
-[21] (./relatorioParcial.aux)
+[19] <pictures/logoCambridge.jpg, id=85, 803.0pt x 210.7875pt>
+File: pictures/logoCambridge.jpg Graphic file (type jpg)
+
+<use pictures/logoCambridge.jpg>
+Package pdftex.def Info: pictures/logoCambridge.jpg used on input line 675.
+(pdftex.def)             Requested size: 240.90186pt x 63.23672pt.
+ [20 <./pictures/graficoFei.png (PNG copy)>]
+[21 <./pictures/logoCambridge.jpg>]
+<pictures/gradeCambridge.png, id=92, 1156.32pt x 686.565pt>
+File: pictures/gradeCambridge.png Graphic file (type png)
+
+<use pictures/gradeCambridge.png>
+Package pdftex.def Info: pictures/gradeCambridge.png used on input line 697.
+(pdftex.def)             Requested size: 231.2599pt x 137.31056pt.
+ [22 <./pictures/gradeCambridge.png>] [23]
+(./relatorioParcial.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3955 strings out of 492995
- 51442 string characters out of 6132705
+ 3966 strings out of 492995
+ 51759 string characters out of 6132705
  240684 words of memory out of 5000000
- 7420 multiletter control sequences out of 15000+600000
+ 7430 multiletter control sequences out of 15000+600000
  15947 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,25p,868b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -817,10 +830,10 @@ ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on relatorioParcial.pdf (22 pages, 444446 bytes).
+Output written on relatorioParcial.pdf (24 pages, 507906 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
