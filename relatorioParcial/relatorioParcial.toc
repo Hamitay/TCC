@@ -38,19 +38,21 @@
 \contentsline {paragraph}{}{19}
 \contentsline {paragraph}{}{20}
 \contentsline {paragraph}{}{20}
-\contentsline {subsection}{\numberline {6.2}Cambridge University}{21}
-\contentsline {paragraph}{}{21}
-\contentsline {paragraph}{}{21}
-\contentsline {paragraph}{}{21}
-\contentsline {paragraph}{}{21}
-\contentsline {paragraph}{}{21}
-\contentsline {paragraph}{}{22}
-\contentsline {paragraph}{}{22}
-\contentsline {paragraph}{}{22}
-\contentsline {subsubsection}{\numberline {6.2.1}Estudo de um dos projetos sugeridos}{22}
-\contentsline {paragraph}{}{22}
-\contentsline {paragraph}{}{23}
-\contentsline {paragraph}{}{23}
-\contentsline {paragraph}{}{23}
-\contentsline {subsection}{\numberline {6.3}MIT}{23}
-\contentsline {section}{\numberline {7}Conclus\IeC {\~a}o e pr\IeC {\'o}ximos passos}{23}
+\contentsline {subsection}{\numberline {6.2}Universidade Federal de Santa Catarina}{21}
+\contentsline {subsubsection}{\numberline {6.2.1}Atividades Complementares}{23}
+\contentsline {subsection}{\numberline {6.3}University of Cambridge}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {subsubsection}{\numberline {6.3.1}Estudo de um dos projetos sugeridos}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{27}
+\contentsline {subsection}{\numberline {6.4}MIT}{27}
+\contentsline {section}{\numberline {7}Conclus\IeC {\~a}o e pr\IeC {\'o}ximos passos}{27}
