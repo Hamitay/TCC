@@ -1,62 +1,85 @@
 \select@language {portuguese}
-\contentsline {section}{\numberline {1}Objetivo}{2}
-\contentsline {paragraph}{}{2}
-\contentsline {paragraph}{}{2}
-\contentsline {section}{\numberline {2}M\IeC {\'e}todo}{2}
-\contentsline {paragraph}{}{2}
-\contentsline {section}{\numberline {3}Cronograma}{3}
-\contentsline {section}{\numberline {4}Escopo do Engenheiro de Controle e Automa\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {subsection}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o de Engenharia de Controle e Automa\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {subsection}{\numberline {4.2}Levantamento das compet\IeC {\^e}ncias de um Engenheiro}{5}
+\contentsline {section}{\numberline {1}Objetivo}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {section}{\numberline {2}M\IeC {\'e}todo}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {section}{\numberline {3}Cronograma}{4}
+\contentsline {section}{\numberline {4}Escopo do Engenheiro de Controle e Automa\IeC {\c c}\IeC {\~a}o}{5}
+\contentsline {subsection}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o de Engenharia de Controle e Automa\IeC {\c c}\IeC {\~a}o}{5}
 \contentsline {paragraph}{}{5}
 \contentsline {paragraph}{}{5}
 \contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsection}{\numberline {4.2}Levantamento das compet\IeC {\^e}ncias de um Engenheiro}{6}
 \contentsline {paragraph}{}{6}
 \contentsline {paragraph}{}{6}
 \contentsline {paragraph}{}{6}
-\contentsline {section}{\numberline {5}An\IeC {\'a}lise do curr\IeC {\'\i }culo atual}{6}
-\contentsline {paragraph}{}{6}
-\contentsline {paragraph}{}{6}
-\contentsline {paragraph}{}{9}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {section}{\numberline {5}An\IeC {\'a}lise do curr\IeC {\'\i }culo atual}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
 \contentsline {paragraph}{}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {paragraph}{}{13}
-\contentsline {section}{\numberline {6}Outras Institui\IeC {\c c}\IeC {\~o}es}{13}
-\contentsline {paragraph}{}{13}
-\contentsline {paragraph}{}{13}
-\contentsline {subsection}{\numberline {6.1}Universidade Federal de Itajub\IeC {\'a}}{14}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{14}
+\contentsline {section}{\numberline {6}Outras Institui\IeC {\c c}\IeC {\~o}es}{14}
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{14}
-\contentsline {paragraph}{}{14}
-\contentsline {paragraph}{}{19}
+\contentsline {subsection}{\numberline {6.1}Universidade Federal de Itajub\IeC {\'a}}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{15}
 \contentsline {paragraph}{}{20}
-\contentsline {paragraph}{}{20}
-\contentsline {subsection}{\numberline {6.2}Universidade Federal de Santa Catarina}{21}
-\contentsline {subsubsection}{\numberline {6.2.1}Atividades Complementares}{23}
-\contentsline {subsection}{\numberline {6.3}Insper}{24}
-\contentsline {subsection}{\numberline {6.4}University of Cambridge}{25}
-\contentsline {paragraph}{}{25}
-\contentsline {paragraph}{}{25}
-\contentsline {paragraph}{}{26}
-\contentsline {paragraph}{}{26}
-\contentsline {paragraph}{}{26}
-\contentsline {paragraph}{}{26}
-\contentsline {paragraph}{}{26}
-\contentsline {paragraph}{}{26}
-\contentsline {subsubsection}{\numberline {6.4.1}Estudo de um dos projetos sugeridos}{27}
+\contentsline {paragraph}{}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {subsection}{\numberline {6.2}Universidade Federal de Santa Catarina}{22}
+\contentsline {subsubsection}{\numberline {6.2.1}Atividades Complementares}{24}
+\contentsline {subsection}{\numberline {6.3}Insper}{25}
+\contentsline {subsection}{\numberline {6.4}University of Cambridge}{27}
+\contentsline {paragraph}{}{27}
+\contentsline {paragraph}{}{27}
 \contentsline {paragraph}{}{27}
 \contentsline {paragraph}{}{27}
 \contentsline {paragraph}{}{27}
 \contentsline {paragraph}{}{28}
 \contentsline {paragraph}{}{28}
-\contentsline {subsection}{\numberline {6.5}MIT}{28}
 \contentsline {paragraph}{}{28}
+\contentsline {subsubsection}{\numberline {6.4.1}Estudo de um dos projetos sugeridos}{28}
 \contentsline {paragraph}{}{28}
-\contentsline {section}{\numberline {7}Conclus\IeC {\~a}o e pr\IeC {\'o}ximos passos}{29}
+\contentsline {paragraph}{}{29}
+\contentsline {paragraph}{}{29}
+\contentsline {paragraph}{}{29}
+\contentsline {paragraph}{}{29}
+\contentsline {subsection}{\numberline {6.5}MIT}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {section}{\numberline {7}Conclus\IeC {\~a}o da an\IeC {\'a}lise}{32}
+\contentsline {section}{\numberline {8}Projetos de Integra\IeC {\c c}\IeC {\~a}o}{33}
+\contentsline {subsection}{\numberline {8.1}Projetos}{33}
+\contentsline {subsubsection}{\numberline {8.1.1}Primeiro Semestre}{33}
+\contentsline {subsubsection}{\numberline {8.1.2}Segundo Semestre}{34}
+\contentsline {subsubsection}{\numberline {8.1.3}Terceiro Semestre}{34}
+\contentsline {subsubsection}{\numberline {8.1.4}Quarto Semestre}{36}
+\contentsline {subsubsection}{\numberline {8.1.5}Quinto Semestre}{37}
+\contentsline {subsubsection}{\numberline {8.1.6}Sexto Semestre}{37}
+\contentsline {subsubsection}{\numberline {8.1.7}S\IeC {\'e}timo Semestre}{39}
+\contentsline {subsubsection}{\numberline {8.1.8}Oitavo Semestre}{39}
+\contentsline {subsubsection}{\numberline {8.1.9}Nono Semestre}{40}
+\contentsline {subsubsection}{\numberline {8.1.10}D\IeC {\'e}cimo Semestre}{41}
+\contentsline {subsubsection}{\numberline {8.1.11}D\IeC {\'e}cimo Primeiro Semestre}{42}
+\contentsline {subsubsection}{\numberline {8.1.12}D\IeC {\'e}cimo Segundo Semestre}{43}
+\contentsline {section}{\numberline {9}Bibliografia}{43}
+\contentsline {paragraph}{}{43}
+\contentsline {paragraph}{}{43}
+\contentsline {paragraph}{}{43}
+\contentsline {paragraph}{}{44}
+\contentsline {paragraph}{}{44}
+\contentsline {paragraph}{}{44}
+\contentsline {paragraph}{}{44}
+\contentsline {paragraph}{}{44}

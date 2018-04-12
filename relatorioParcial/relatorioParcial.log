@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.6)  21 NOV 2017 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.6)  11 APR 2018 00:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,11 +613,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictu
-res/unicamp.png>] (./relatorioParcial.toc)
+res/unicamp.png>] (./relatorioParcial.toc [1])
 \tf@toc=\write3
 \openout3 = `relatorioParcial.toc'.
 
- [1]
+ [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
 
 
@@ -626,21 +626,21 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
- [2]
+ [3]
 Overfull \hbox (22.79736pt too wide) in paragraph at lines 142--170
  [][] 
  []
 
-[3] [4] [5]
+[4] [5] [6]
 Overfull \hbox (45.75882pt too wide) in paragraph at lines 256--297
  [][] 
  []
 
-[6]
+[7]
 Overfull \vbox (94.86461pt too high) has occurred while \output is active []
 
 
-[7] [8] [9] [10]
+[8] [9] [10] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\T1/cmr/m/n/12 Créditos
  []
@@ -690,7 +690,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\T1/cmr/m/n/12 Estudos Com-
  []
 
-[11] <pictures/graficoMaterias.png, id=56, 1124.2pt x 843.15pt>
+[12] <pictures/graficoMaterias.png, id=60, 1124.2pt x 843.15pt>
 File: pictures/graficoMaterias.png Graphic file (type png)
 
 <use pictures/graficoMaterias.png>
@@ -701,23 +701,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 437--438
 
  []
 
-[12] [13 <./pictures/graficoMaterias.png (PNG copy)>]
-<pictures/fei.jpg, id=64, 192.72pt x 192.72pt>
+[13] [14 <./pictures/graficoMaterias.png (PNG copy)>]
+<pictures/fei.jpg, id=67, 192.72pt x 192.72pt>
 File: pictures/fei.jpg Graphic file (type jpg)
  <use pictures/fei.jpg>
 Package pdftex.def Info: pictures/fei.jpg used on input line 466.
 (pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
- [14 <./pictures/fei.jpg>]
+ [15 <./pictures/fei.jpg>]
 Overfull \hbox (54.7302pt too wide) in paragraph at lines 520--558
  [][] 
  []
 
-[15]
+[16]
 Overfull \hbox (3.14275pt too wide) in paragraph at lines 564--597
  [][] 
  []
 
-[16]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 623--623
 []|\T1/cmr/m/n/12 Créditos
  []
@@ -742,7 +742,7 @@ Underfull \hbox (badness 1924) in paragraph at lines 623--623
 []|\T1/cmr/m/n/12 Modelagem de Sis-te-mas Di-nâ-mi-cos,
  []
 
-[17]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 646--646
 []|\T1/cmr/m/n/12 Créditos
  []
@@ -777,7 +777,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 646--646
 []|\T1/cmr/m/n/12 Estudos Com-
  []
 
-[18] <pictures/graficoFei.png, id=81, 1435.3625pt x 1150.2975pt>
+[19] <pictures/graficoFei.png, id=84, 1435.3625pt x 1150.2975pt>
 File: pictures/graficoFei.png Graphic file (type png)
 
 <use pictures/graficoFei.png>
@@ -788,87 +788,112 @@ Overfull \hbox (12.3584pt too wide) in paragraph at lines 655--655
  [][] 
  []
 
-[19] [20 <./pictures/graficoFei.png (PNG copy)>]
-<pictures/ufscLogo.png, id=88, 915.42pt x 1065.9825pt>
+[20] [21 <./pictures/graficoFei.png (PNG copy)>]
+<pictures/ufscLogo.png, id=91, 915.42pt x 1065.9825pt>
 File: pictures/ufscLogo.png Graphic file (type png)
 
 <use pictures/ufscLogo.png>
 Package pdftex.def Info: pictures/ufscLogo.png used on input line 674.
 (pdftex.def)             Requested size: 137.30707pt x 159.89047pt.
 
-<pictures/ufscEstrutura.png, id=89, 915.42pt x 800.9925pt>
+<pictures/ufscEstrutura.png, id=92, 915.42pt x 800.9925pt>
 File: pictures/ufscEstrutura.png Graphic file (type png)
 
 <use pictures/ufscEstrutura.png>
 Package pdftex.def Info: pictures/ufscEstrutura.png used on input line 682.
 (pdftex.def)             Requested size: 274.62811pt x 240.29959pt.
- [21 <./pictures/ufscLogo.png>]
-<pictures/usfcGrade.png, id=94, 1909.1325pt x 1110.1475pt>
+ [22 <./pictures/ufscLogo.png>]
+<pictures/usfcGrade.png, id=97, 1909.1325pt x 1110.1475pt>
 File: pictures/usfcGrade.png Graphic file (type png)
 
 <use pictures/usfcGrade.png>
 Package pdftex.def Info: pictures/usfcGrade.png used on input line 688.
 (pdftex.def)             Requested size: 381.81973pt x 222.02556pt.
 
-<pictures/ufscDist.png, id=95, 1124.2pt x 843.15pt>
+<pictures/ufscDist.png, id=98, 1124.2pt x 843.15pt>
 File: pictures/ufscDist.png Graphic file (type png)
 
 <use pictures/ufscDist.png>
 Package pdftex.def Info: pictures/ufscDist.png used on input line 696.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
- [22 <./pictures/ufscEstrutura.png> <./pictures/usfcGrade.png>] [23 <./pictures
+ [23 <./pictures/ufscEstrutura.png> <./pictures/usfcGrade.png>] [24 <./pictures
 /ufscDist.png (PNG copy)>]
-<pictures/insperLogo.png, id=104, 250.9375pt x 150.5625pt>
+<pictures/insperLogo.png, id=108, 250.9375pt x 150.5625pt>
 File: pictures/insperLogo.png Graphic file (type png)
 
 <use pictures/insperLogo.png>
-Package pdftex.def Info: pictures/insperLogo.png used on input line 730.
+Package pdftex.def Info: pictures/insperLogo.png used on input line 729.
 (pdftex.def)             Requested size: 75.28181pt x 45.16908pt.
-
-<pictures/gradeInsper.png, id=105, 1674.255pt x 999.735pt>
+ [25 <./pictures/insperLogo.png>]
+<pictures/gradeInsper.png, id=113, 1674.255pt x 999.735pt>
 File: pictures/gradeInsper.png Graphic file (type png)
 
 <use pictures/gradeInsper.png>
-Package pdftex.def Info: pictures/gradeInsper.png used on input line 736.
+Package pdftex.def Info: pictures/gradeInsper.png used on input line 746.
 (pdftex.def)             Requested size: 418.56273pt x 249.93314pt.
- [24 <./pictures/insperLogo.png>]
-<pictures/logoCambridge.jpg, id=111, 803.0pt x 210.7875pt>
+
+<pictures/logoCambridge.jpg, id=114, 803.0pt x 210.7875pt>
 File: pictures/logoCambridge.jpg Graphic file (type jpg)
 
 <use pictures/logoCambridge.jpg>
-Package pdftex.def Info: pictures/logoCambridge.jpg used on input line 744.
+Package pdftex.def Info: pictures/logoCambridge.jpg used on input line 765.
 (pdftex.def)             Requested size: 240.90186pt x 63.23672pt.
- [25 <./pictures/gradeInsper.png> <./pictures/logoCambridge.jpg>] [26]
-<pictures/gradeCambridge.png, id=119, 1156.32pt x 686.565pt>
+ [26 <./pictures/gradeInsper.png>] [27 <./pictures/logoCambridge.jpg>]
+<pictures/gradeCambridge.png, id=122, 1156.32pt x 686.565pt>
 File: pictures/gradeCambridge.png Graphic file (type png)
 
 <use pictures/gradeCambridge.png>
-Package pdftex.def Info: pictures/gradeCambridge.png used on input line 766.
+Package pdftex.def Info: pictures/gradeCambridge.png used on input line 787.
 (pdftex.def)             Requested size: 231.2599pt x 137.31056pt.
- [27 <./pictures/gradeCambridge.png>]
-Overfull \hbox (37.34312pt too wide) in paragraph at lines 802--803
-[]\T1/cmr/m/n/12 http://www.eecs.mit.edu/academics-admissions/undergraduate-pro
-grams/curriculum 
+ [28 <./pictures/gradeCambridge.png>] [29]
+<pictures/MIT-Logo.png, id=130, 602.25pt x 401.5pt>
+File: pictures/MIT-Logo.png Graphic file (type png)
+
+<use pictures/MIT-Logo.png>
+Package pdftex.def Info: pictures/MIT-Logo.png used on input line 822.
+(pdftex.def)             Requested size: 240.89572pt x 160.59715pt.
+
+<pictures/gradeMIT.png, id=131, 1700.3525pt x 1184.425pt>
+File: pictures/gradeMIT.png Graphic file (type png)
+
+<use pictures/gradeMIT.png>
+Package pdftex.def Info: pictures/gradeMIT.png used on input line 831.
+(pdftex.def)             Requested size: 425.08708pt x 296.10553pt.
+
+Overfull \hbox (6.8334pt too wide) in paragraph at lines 831--831
+ [][] 
  []
 
-<pictures/mitLogo.png, id=124, 1204.5pt x 1200.485pt>
-File: pictures/mitLogo.png Graphic file (type png)
+[30 <./pictures/MIT-Logo.png>] [31 <./pictures/gradeMIT.png>] [32] [33]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 905.
 
-<use pictures/mitLogo.png>
-Package pdftex.def Info: pictures/mitLogo.png used on input line 806.
-(pdftex.def)             Requested size: 240.89574pt x 240.09274pt.
- [28] [29 <./pictures/mitLogo.png>]
-(./relatorioParcial.aux)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [34] [35]
+[36] [37] [38] [39] [40] [41] [42] [43]
+Overfull \hbox (1.95247pt too wide) in paragraph at lines 1103--1104
+ [] \T1/cmr/m/n/12 [5] MIT EECS Ho-me-page. Dis-po-ní-vel em: <https://www.eecs
+.mit.edu>. Acesso
+ []
+
+
+Overfull \hbox (10.87325pt too wide) in paragraph at lines 1107--1109
+\T1/cmr/m/n/12 Disponível em: <https://www.insper.edu.br/graduacao/engenharia-m
+ecatronica/>.
+ []
+
+[44] (./relatorioParcial.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4003 strings out of 492995
- 52649 string characters out of 6132705
+ 4032 strings out of 492995
+ 53460 string characters out of 6132705
  240684 words of memory out of 5000000
- 7460 multiletter control sequences out of 15000+600000
- 15947 words of font info for 36 fonts, out of 8000000 for 9000
+ 7484 multiletter control sequences out of 15000+600000
+ 16260 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,25p,868b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -884,11 +909,12 @@ xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on relatorioParcial.pdf (30 pages, 1916432 bytes).
+17/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on relatorioParcial.pdf (45 pages, 2006726 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 232 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
